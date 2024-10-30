@@ -1,0 +1,49 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+/media/
+*.pyo
+*.pyd
+*.pdb
+
+# Django migrations
+**/migrations/
+
+# Docker
+*.env
+docker-compose.yml
+Dockerfile
+*.pid
+
+# VS Code settings
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+*.pem
+
+# Git
+.git/
